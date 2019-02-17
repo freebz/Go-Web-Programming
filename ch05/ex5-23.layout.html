@@ -1,0 +1,15 @@
+<!-- Listing 5.23  Defining a template explicitly -->
+
+{{ define "layout" }}
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Go Web Programming</title>
+  </head>
+  <body>
+    {{ template "content.html" }}
+  </body>
+</html>
+
+{{ end }}

@@ -1,0 +1,21 @@
+<!-- Listing 5.24  Defining multiple templates in a single template file -->
+
+{{ define "layout" }}
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Go Web Programming</title>
+  </head>
+  <body>
+    {{ template "content.html" }}
+  </body>
+</html>
+
+{{ end }}
+
+{{ define "content" }}
+
+Hello World!
+
+{{ end }}
