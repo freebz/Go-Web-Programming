@@ -1,0 +1,22 @@
+// Listing 8.2  The post.json file that you parsed
+
+{
+  "id": 1,
+  "content" : "Hello World!",
+  "author" : {
+    "id" : 2,
+    "name" : "Sau Sheong"
+  },
+  "comments" : [
+    {
+      "id" : 3,
+      "content" : "Have a great day!",
+      "author": "Adam"
+    },
+    {
+      "id" : 4,
+      "content" : "How are you today?",
+      "author" : "Betty"
+    }
+  ]
+}
