@@ -1,0 +1,10 @@
+# Listing 10.6  app.yaml file for deploying to GAE
+
+application: ws-g-1234
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+  url: /.*
+  script: _go_app
